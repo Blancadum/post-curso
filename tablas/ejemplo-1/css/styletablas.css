@@ -1,0 +1,73 @@
+/* === BLOQUE 1: Bordes tipo rotulador === */
+.tabla-bordes table {
+  width: 80%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1rem auto;
+  border: 3px solid black;
+}
+
+.tabla-bordes th,
+.tabla-bordes td {
+  border: 3px solid black;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* === BLOQUE 2: Celdas colapsadas y colspan === */
+.tabla-colapsada table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 1rem auto;
+  border: 2px solid #444;
+}
+
+.tabla-colapsada th,
+.tabla-colapsada td {
+  border: 1px solid #444;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* === BLOQUE 3: Seudoclases (resaltado por fila o celda) === */
+.tabla-seudoclases table {
+  width: 60%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+  border: 1px solid #aaa;
+}
+
+.tabla-seudoclases td,
+.tabla-seudoclases th {
+  border: 1px solid #aaa;
+  padding: 0.5rem;
+}
+
+.tabla-seudoclases tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabla-seudoclases td:first-child {
+  font-weight: bold;
+  color: #0057b7;
+}
+
+/* === BLOQUE 4: Cabecera en negrita === */
+.tabla-cabecera-bold table {
+  width: 60%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+}
+
+.tabla-cabecera-bold thead th {
+  background-color: #ddd;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.6rem;
+}
+
+.tabla-cabecera-bold td {
+  padding: 0.6rem;
+  text-align: center;
+  border: 1px solid #ccc;
+}

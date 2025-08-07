@@ -1,0 +1,147 @@
+
+/* ================================================================
+  =========================== reset CSS ===========================
+  parece que reset css se decanta por la versión 2.0 de Eric Meyer
+  ttp://meyerweb.com/eric/tools/css/reset/ 
+  v2.0 | 20110126
+  License: none (public domain)
+  ================================================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* =========================================================== 
+   ====================== MIS ESTILOS CSS ==================== 
+   =========================================================== */
+
+/* Fondo general */
+body {
+  /*para background-color plata sería lo siguiente:
+  background-color: silver;
+  pero le he querido dar un efecto degradado con la siguiente linea:*/
+  background: linear-gradient(30deg, black, silver);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #472d10e7;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Menú de nav */
+nav {
+  background-color: lightcyan;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: khaki;
+  border: 1px dotted khaki;
+  padding: 0.5rem 1rem;
+}
+
+/* Hover menú */
+.menu a:hover {
+  color: red;
+}
+
+/* Artículo */
+article {
+  padding: 2rem;
+}
+
+article h2 {
+  background-color: lightyellow;
+  padding: 0.5rem;
+}
+
+
+article p {
+  background-color: pink;
+  padding: 1rem;
+  line-height: 1.6;
+}
+
+.inicial {
+  font-size: 2rem;
+  color: red;
+  font-weight: bold;
+  float: left;
+  margin-right: 0.5rem;
+  line-height: 1;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(71, 45, 16, 0.904);
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+}

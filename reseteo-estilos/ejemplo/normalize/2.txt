@@ -1,0 +1,38 @@
+PREGUNTAS/ACTIVIDADES A REALIZAR
+
+
+1. Partiendo del documento html del ejercicio anterior.
+
+a. Descarga un archivo de reset.css y aplícaselo a la página web creada anteriormente. Comprueba cómo se ve ahora. ¿Qué ha cambiado?
+
+b. Quita el archivo reset.css si lo tienes puesto y descarga la última versión de normalize.css y aplica ese estilo a la página web creada anteriormente. Comprueba cómo se ve ahora. ¿Qué ha cambiado?
+
+
+INFORMACIÓN ADICIONAL/ORIENTACIONES PARA DESARROLLAR LA ACTIVIDAD
+
+Es importante recordar que es necesario escribir el código de forma ordenada y utilizar comentarios para documentarlo. Además siempre es necesario probar que la visualización es correcta en varios navegadores web y móviles.
+
+
+· La web de normalize.css es:
+http://necolas.github.io/normalize.css/
+
+
+· Enlaces a otras webs con otros archivos de reset:
+http://www.cssreset.com/
+
+
+
+
+
+
+
+OBJETIVO/S DE LA ACTIVIDAD (Relacionados con la unidad/módulo formativo)
+
+C2: Diseñar, ubicar y optimizar los contenidos de una página web, para adecuarla al formato de la misma, facilitar su manejo a los usuarios y optimizarla de acuerdo a un diseño especificado.
+
+CE2.1 Seleccionar los contenidos de la página web para adecuarlos al formato de la misma de acuerdo con las especificaciones recibidas.
+
+CE2.2 Ubicar y distribuir los elementos para facilitar el manejo de la página por parte de los usuarios.
+
+CE2.3 Optimizar las páginas web teniendo en cuenta sus elementos, contenidos y sus funcionalidades.
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto con Reset CSS</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/1200x300?text=Cabecera+del+Sitio" alt="Imagen de cabecera del sitio">
+    <h1>Mi Proyecto Base</h1>
+  </header>
+
+  <!--Nav sin inline block-->
+  <nav>
+    <ul>
+      <li><a href="./index.html">Inicio</a></li>
+      <li><a href="./pages/contacto.html">Servicios</a></li>
+      <li><a href="./pages/contacto.html">Contacto</a></li>
+      <li><a href="./pages/sobremi.html">Sobre mí</a></li>
+    </ul>
+  </nav>
+
+  <!--Nav con inline block-->
+<nav class="menu-inline">
+  <ul>
+      <li><a href="./index.html">Inicio</a></li>
+      <li><a href="./pages/contacto.html">Servicios</a></li>
+      <li><a href="./pages/contacto.html">Contacto</a></li>
+      <li><a href="./pages/sobremi.html">Sobre mí</a></li>
+  </ul>
+</nav>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenida</h2>
+      <p>Este es un ejemplo básico de estructura HTML5 con estilos normalizados y preparados para ser reutilizados.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <article>
+        <h3>Diseño Web</h3>
+        <p>Ofrecemos servicios de diseño adaptativo con estándares actuales y accesibilidad web.</p>
+      </article>
+      <article>
+        <h3>Formación</h3>
+        <p>Capacitación en herramientas digitales y diseño web profesional.</p>
+      </article>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Blanca</p>
+    <small><a href="#inicio">Volver arriba</a></small>
+  </footer>
+
+</body>
+</html>

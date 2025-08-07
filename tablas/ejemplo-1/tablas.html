@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chuleta de Tablas CSS</title>
+  <link rel="stylesheet" href="css/styletablas.css">
+</head>
+<body>
+
+  <section class="tabla-bordes">
+    <h2>Tabla con bordes tipo rotulador</h2>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>País</th>
+      </tr>
+      <tr>
+        <td>Ana</td>
+        <td>28</td>
+        <td>España</td>
+      </tr>
+      <tr>
+        <td>Carlos</td>
+        <td>32</td>
+        <td>México</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="tabla-colapsada">
+    <h2>Tabla con celdas colapsadas y colspan</h2>
+    <table>
+      <tr>
+        <th colspan="2">Producto</th>
+        <th>Precio</th>
+      </tr>
+      <tr>
+        <td>Teclado</td>
+        <td>Inalámbrico</td>
+        <td>25€</td>
+      </tr>
+      <tr>
+        <td colspan="2">Monitor LED</td>
+        <td>120€</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="tabla-seudoclases">
+    <h2>Tabla con celdas resaltadas (first-child, nth-child)</h2>
+    <table>
+      <tr>
+        <th>Turno</th>
+        <th>Hora</th>
+      </tr>
+      <tr>
+        <td>Mañana</td>
+        <td>08:00 - 14:00</td>
+      </tr>
+      <tr>
+        <td>Tarde</td>
+        <td>14:00 - 20:00</td>
+      </tr>
+      <tr>
+        <td>Noche</td>
+        <td>20:00 - 02:00</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="tabla-cabecera-bold">
+    <h2>Tabla con cabecera en negrita</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Asignatura</th>
+          <th>Nota</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>8</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</body>
+</html>

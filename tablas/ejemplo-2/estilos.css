@@ -1,0 +1,38 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  padding: 2em;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+caption {
+  caption-side: top;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  font-weight: bold;
+  color: #333;
+}
+
+th, td {
+  padding: 1em;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+thead {
+  background-color: #5c6bc0;
+  color: white;
+}
+
+tfoot {
+  background-color: #e8eaf6;
+  font-style: italic;
+}

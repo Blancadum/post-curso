@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla Completa</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <table>
+    <caption>Resumen de Notas por Asignatura y Evaluación</caption>
+    <thead>
+      <tr>
+        <th rowspan="2">Alumno</th>
+        <th colspan="3">Evaluaciones</th>
+        <th rowspan="2">Media</th>
+      </tr>
+      <tr>
+        <th>1ª Eval</th>
+        <th>2ª Eval</th>
+        <th>3ª Eval</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Blanca</td>
+        <td>8.5</td>
+        <td>9</td>
+        <td>10</td>
+        <td rowspan="2">9.2</td>
+      </tr>
+      <tr>
+        <td>Chema</td>
+        <td colspan="2">9.5 (recuperación)</td>
+        <td>8.7</td>
+      </tr>
+      <tr>
+        <td>Eugenia</td>
+        <td>7</td>
+        <td>7.5</td>
+        <td>8</td>
+        <td>7.5</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">* Nota mínima para aprobar: 5</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>

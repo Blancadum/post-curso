@@ -1,0 +1,144 @@
+/* === Reset css minimizado === */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:system-ui,sans-serif;background-color:#f5f5f5;color:#222;line-height:1.5}img,video,canvas,svg{display:block;max-width:100%;height:auto}ul,ol{list-style:none}button,input,textarea,select{font:inherit}header,footer{background-color:#333;color:#fff;text-align:center;padding:1em}
+
+
+/* === Estilos base === */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 2rem;
+}
+
+/* === Cabecera === */
+header {
+  background-color: #0057b7;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+
+/* === NAV MENU ===*/
+
+/*Alinear elementos nav (nav.menu-inline)*/
+.menu-inline ul {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #eaeaea;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+.menu-inline li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.menu-inline a {
+  color: #0057b7;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.menu-inline a:hover {
+  background-color: #d0e2ff;
+  border-radius: 4px;
+}
+
+
+
+/* === Contenido principal === */
+main {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+  font-size: 1.1rem;
+}
+
+/* === Pie de página === */
+footer {
+  margin-top: 3rem;
+  background-color: burlywood;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+}
+/* === Enlaces con pseudoclases === */
+a {
+  color: #0057b7;
+  text-decoration: none; /*para quitar efecto hipervínculo */
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #003c99;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #002f73;
+  text-decoration: underline dashed;
+}
+
+a:visited {
+  color: #663399; /* morado para enlaces ya visitados */
+}
+
+a:focus {
+  outline: 2px dashed #0057b7;
+  outline-offset: 2px;
+}
+
+/* === Tablas, forms o futuros bloques === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea, select, button {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+button {
+  background-color: #0057b7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00409c;
+}
