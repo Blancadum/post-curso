@@ -53,7 +53,6 @@ label.option {
   margin-bottom: 0.3em;
 }
 
-/* Agrupación horizontal para radio y checkbox */
 .inline-options {
   display: flex;
   flex-wrap: wrap;
@@ -61,7 +60,6 @@ label.option {
   margin-top: 0.5em;
 }
 
-/* Aplicar ancho solo a los campos relevantes */
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -105,34 +103,38 @@ select {
   background-size: 1em auto;
 }
 
-/* Botones */
-button {
+/* BOTONES INLINE-BLOCK */
+.botonera {
+  text-align: right;
+  margin-top: 1em;
+}
+
+.botonera button {
+  display: inline-block;
+  margin-left: 1em;
   padding: 0.8em 1.5em;
   border: none;
   border-radius: 8px;
-  background-color: #5c6bc0;
-  color: white;
   font-weight: bold;
+  font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-button:hover {
+.botonera button[type="submit"] {
+  background-color: #5c6bc0;
+  color: white;
+}
+
+.botonera button[type="submit"]:hover {
   background-color: #3949ab;
 }
 
-button[type="reset"] {
+.botonera button[type="reset"] {
   background-color: #ccc;
   color: #333;
 }
 
-button[type="reset"]:hover {
+.botonera button[type="reset"]:hover {
   background-color: #999;
 }
-
-.buttons {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1em;
-}
-
