@@ -31,14 +31,16 @@ legend {
   font-weight: bold;
   padding: 0 1em;
   color: #444;
+  margin-bottom: 1em;
 }
 
 .form-group {
   margin-bottom: 1.5em;
+  display: flex;
+  flex-direction: column;
 }
 
 label {
-  display: block;
   font-weight: 600;
   margin-bottom: 0.5em;
 }
@@ -51,7 +53,22 @@ label.option {
   margin-bottom: 0.3em;
 }
 
-input, select, textarea {
+/* Agrupación horizontal para radio y checkbox */
+.inline-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 0.5em;
+}
+
+/* Aplicar ancho solo a los campos relevantes */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+select,
+textarea {
   width: 100%;
   padding: 0.8em;
   border-radius: 8px;
@@ -60,7 +77,17 @@ input, select, textarea {
   transition: border-color 0.2s;
 }
 
-input:focus, select:focus, textarea:focus {
+input[type="file"] {
+  padding: 0.5em;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  font-size: 0.95em;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
   outline: none;
   border-color: #5c6bc0;
 }
@@ -69,6 +96,16 @@ textarea {
   resize: vertical;
 }
 
+select {
+  background-color: white;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23666" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 0.7em top 50%;
+  background-size: 1em auto;
+}
+
+/* Botones */
 button {
   padding: 0.8em 1.5em;
   border: none;
@@ -84,7 +121,18 @@ button:hover {
   background-color: #3949ab;
 }
 
+button[type="reset"] {
+  background-color: #ccc;
+  color: #333;
+}
+
+button[type="reset"]:hover {
+  background-color: #999;
+}
+
 .buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 1em;
 }
+
